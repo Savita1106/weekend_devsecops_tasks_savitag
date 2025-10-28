@@ -13,4 +13,4 @@ node
   sh "sudo systemctl enable httpd"
   sh "rpm -qa |grep httpd"
   sh "ps -auxx |grep httpd"
-  
+}
