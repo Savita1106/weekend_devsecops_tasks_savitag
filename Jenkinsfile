@@ -21,6 +21,6 @@ node
   sh "uname -a"
   sh "df -h"
   sh "free -m"
-  sh "top"
+  sh "top -b -n2"
   sh "cat /etc/os-release"
 }
